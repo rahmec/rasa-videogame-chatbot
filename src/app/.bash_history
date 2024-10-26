@@ -76,3 +76,5 @@ exit
 exit
 rasa shell
 exit
+rasa train
+exit
