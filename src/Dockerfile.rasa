@@ -1,0 +1,7 @@
+FROM rasa/rasa:latest-full
+USER root
+RUN apt-get update && apt-get install -y jq curl
+#RUN chmod +x set_ngrok_webhook.sh
+USER rasa
+ENTRYPOINT [""]
+CMD ["bash", "-c", ". ./set_ngrok_webhook.sh && rasa run --enable-api"]

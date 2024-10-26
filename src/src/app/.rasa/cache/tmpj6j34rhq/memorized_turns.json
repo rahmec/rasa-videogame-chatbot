@@ -1,0 +1,26 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4EGxQIAPEFQdQ==": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4l0SkZiQUElfmNiAVKZa5w=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2oMD4lsSSxtjYWANI8HqA=": "game_data_form",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2oMD4lsSSxloBZcIXxaflFuQQNiwUAbQo7yQ==": "get_game_data",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2oMD4lsSSxloBZcIXxaflFuZQahqKYkFmxAHJ8WH4=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2osDi+KDU5Pzc3NS8lEaShtjYWAD9ZI04=": "games_recommendation_form",
+    "eJytjUEKhDAQBL+SB/iCfEVkCNqG4GYiM6OX4N83i3sURPDWDVXdfT06V1fBTmG0VNi7egbikOHdv3ySGrixm0Iak7hV8y7CKDZQSTCWnMFT+AnHzeyVQ3OR/N7FZgahoAtFsECfLA9fV7ZsuQ==": "action_listen",
+    "eJytkEEKhTAQQ6/SA3iCXkVkKP5Yir9TmRndlN7din/5wY27BF4SyFjb4OomOCjMlgp7V29BHDK8+5lvUgN3dldIZxJ3a95FGMUOKgnmkjP4E65Ae6j9l6GlSH5vYjeDUNCVIlig7zU/fKJr2lqbTicFhi0=": "utter_ask_teams",
+    "eJytkFEKwzAMQ6+SA+wEucooxnRqCF2cYrv7Cb37MrrPQvvRPwukZ6Fn2x6hLYoP8ei5SgxtP0i4IIa/eGdzSPeuBu2eLF16DAlOqRuNFGMtBfLiX2A7wR5laKpa7nuxukOJbaYEUdh95JNNbM7L9XIOLgfddsjwBeTvoIA=": "get_games_recommendation",
+    "eJytkFEKwzAMQ6+SA+wEucoYxrRaCF2cYrv7Cb37MrbPlvajfxZIz0L3tt5CmxVv4sFzlRja7yDhghj+4pXNId27GLR7snTpMSQ4pW40Ugy1FMjI38B6gN3K0LNque7F4g4ltokSRGHXkQ82sSnP58s5uGx0OwPZ7b9De3wAYfi+aA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2osDi+KDU5Pzc3NS8lEaShloCx2PTEp+UX5VLRClz6SLAhFgDLlG/k": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPj01ryi1uLY2FgB4xB2R": "get_genres",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPj01ryi1uJaAQUgq8ZoSCwAw+Tgo": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkviQ1MTc+Hai6uLY2FgDx+B8g": "team_games_form",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkviQ1MTc+Hai6uJaAYQiV8Wn5RbmEjYsFADMRPUk=": "get_team_games",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkviQ1MTc+Hai6uJaAYQiV8Wn5RbmUGoemmqBpsQBlS1r+": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2oMB5oQmZqeXFtbSwAMZsgCw==": "game_reviews_form",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2oMB5oQmZqeXEtAeOQ1can5RflEmNkLAC+YkAK": "get_game_reviews",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPbUkPh2oMB5oQmZqeXEtAeOQ1can5RflUsFIdPVEmBgLAEh7X5U=": "action_listen"
+  }
+}

@@ -1,0 +1,3 @@
+pandas
+rapidfuzz
+sqlalchemy<2.0

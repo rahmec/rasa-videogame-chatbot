@@ -1,0 +1,41 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Activate Games Recommendations
+  steps:
+  - intent: get_games_recommendation
+  - action: games_recommendation_form
+  - active_loop: games_recommendation_form
+
+- rule: Submit Games recommendation form
+  condition:
+    - active_loop: games_recommendation_form
+  steps:
+    - action: games_recommendation_form
+    - active_loop: null
+    - action: action_get_games_recommendation # Custom action to handle form submission
+
+- rule: Interruption Games Recommendations Form
+  condition:
+  - active_loop: games_recommendation_form
+  steps:
+  - intent: get_genres
+  - action: action_get_genres
+  - action: games_recommendation_form
+  - active_loop: games_recommendation_form

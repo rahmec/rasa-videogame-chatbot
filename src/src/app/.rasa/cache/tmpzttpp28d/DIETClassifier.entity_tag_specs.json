@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-genre",
+      "2": "I-genre",
+      "3": "L-genre",
+      "4": "U-genre",
+      "5": "B-team",
+      "6": "I-team",
+      "7": "L-team",
+      "8": "U-team",
+      "9": "B-title",
+      "10": "I-title",
+      "11": "L-title",
+      "12": "U-title",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-genre": 1,
+      "I-genre": 2,
+      "L-genre": 3,
+      "U-genre": 4,
+      "B-team": 5,
+      "I-team": 6,
+      "L-team": 7,
+      "U-team": 8,
+      "B-title": 9,
+      "I-title": 10,
+      "L-title": 11,
+      "U-title": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

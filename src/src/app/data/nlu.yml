@@ -1,0 +1,2006 @@
+version: "3.1"
+
+nlu:
+- lookup: title
+  examples: |
+    - "100% orange juice"
+    - "13 sentinels aegis rim"
+    - "428 shibuya scramble"
+    - "a hat in time"
+    - "a plague tale innocence"
+    - "a short hike"
+    - "a way out"
+    - "abzu"
+    - "advance wars"
+    - "agar.io"
+    - "ai the somnium files - nirvana initiative"
+    - "alan wake remastered"
+    - "alan wake"
+    - "alice madness returns"
+    - "alpha protocol"
+    - "altered beast"
+    - "american mcgee's alice"
+    - "amnesia the dark descent"
+    - "among us"
+    - "animal crossing"
+    - "animal crossing city folk"
+    - "animal crossing new horizons"
+    - "animal crossing new leaf"
+    - "anonymous;code"
+    - "another pokémon game"
+    - "another world"
+    - "aokana four rhythms across the blue"
+    - "ape escape 3"
+    - "ape out"
+    - "apex legends"
+    - "armored core 2"
+    - "armored core 3"
+    - "armored core 4"
+    - "armored core"
+    - "assassin's creed ii"
+    - "assassin's creed iii"
+    - "assassin's creed iv black flag"
+    - "assassin's creed odyssey"
+    - "assassin's creed origins"
+    - "assassin's creed revelations"
+    - "assassin's creed rogue"
+    - "assassin's creed syndicate"
+    - "assassin's creed"
+    - "astral chain"
+    - "astro's playroom"
+    - "asura's wrath"
+    - "atomic heart"
+    - "attack of the friday monsters! a tokyo tale"
+    - "audiosurf"
+    - "axiom verge 2"
+    - "baba is you"
+    - "back 4 blood"
+    - "back to the future the game"
+    - "baldur's gate 3"
+    - "banjo-kazooie"
+    - "banjo-tooie"
+    - "batman arkham asylum"
+    - "batman arkham city"
+    - "batman arkham knight"
+    - "batman arkham origins"
+    - "battleblock theater"
+    - "battlefield 1"
+    - "battlefield 4"
+    - "battlefield bad company 2"
+    - "bayonetta 2"
+    - "bayonetta 3"
+    - "bayonetta origins cereza and the lost demon"
+    - "bayonetta"
+    - "before your eyes"
+    - "better call saul kart"
+    - "beyond good & evil"
+    - "beyond two souls"
+    - "billy hatcher and the giant egg"
+    - "binary domain"
+    - "bioshock 2 remastered"
+    - "bioshock 2"
+    - "bioshock infinite"
+    - "bioshock remastered"
+    - "bioshock"
+    - "bit.trip runner"
+    - "black mesa"
+    - "black"
+    - "blasphemous"
+    - "bloodborne psx"
+    - "bloodborne"
+    - "bloodborne game of the year edition"
+    - "bloodborne the old hunters"
+    - "bloodstained curse of the moon"
+    - "bloons td 5"
+    - "bloons td 6"
+    - "borderlands 2"
+    - "borderlands 3"
+    - "borderlands"
+    - "borderlands the pre-sequel"
+    - "bowser's fury"
+    - "braid"
+    - "brawlhalla"
+    - "broken age"
+    - "brothers a tale of two sons"
+    - "bubble bobble"
+    - "bug fables the everlasting sapling"
+    - "bugsnax"
+    - "bulletstorm"
+    - "bully"
+    - "bully scholarship edition"
+    - "cadence of hyrule crypt of the necrodancer featuring the legend of zelda"
+    - "call of duty 3"
+    - "call of duty"
+    - "call of duty advanced warfare"
+    - "call of duty black ops 4"
+    - "call of duty black ops ii"
+    - "call of duty black ops iii"
+    - "call of duty black ops"
+    - "call of duty ghosts"
+    - "call of duty modern warfare 2"
+    - "call of duty modern warfare 3"
+    - "call of duty modern warfare ii"
+    - "call of duty modern warfare"
+    - "carrion"
+    - "castle crashers"
+    - "castlevania iii dracula's curse"
+    - "castlevania"
+    - "castlevania aria of sorrow"
+    - "castlevania bloodlines"
+    - "castlevania circle of the moon"
+    - "castlevania harmony of dissonance"
+    - "castlevania order of ecclesia"
+    - "castlevania symphony of the night"
+    - "catherine full body"
+    - "cave story"
+    - "celeste"
+    - "celeste farewell"
+    - "chained echoes"
+    - "chaos;head noah"
+    - "chibi-robo!"
+    - "chicory a colorful tale"
+    - "children of morta"
+    - "chivalry medieval warfare"
+    - "chop goblins"
+    - "chrome dino"
+    - "chrono cross"
+    - "chrono cross the radical dreamers edition"
+    - "chrono trigger"
+    - "chulip"
+    - "citizen sleeper"
+    - "clash of clans"
+    - "code vein"
+    - "condemned criminal origins"
+    - "conker's bad fur day"
+    - "control"
+    - "control ultimate edition"
+    - "crab game"
+    - "crash bandicoot 4 it's about time"
+    - "crash bandicoot n. sane trilogy"
+    - "crash bandicoot"
+    - "crash nitro kart"
+    - "crash of the titans"
+    - "crash team racing nitro-fueled"
+    - "crash team racing"
+    - "crazy taxi"
+    - "crisis core final fantasy vii - reunion"
+    - "crosscode"
+    - "crysis 2"
+    - "crysis"
+    - "cult of the lamb"
+    - "cuphead"
+    - "cuphead the delicious last course"
+    - "cyberpunk 2077"
+    - "danganronpa 2 goodbye despair"
+    - "danganronpa another episode ultra despair girls"
+    - "danganronpa trigger happy havoc"
+    - "dante's inferno"
+    - "dark souls ii"
+    - "dark souls ii scholar of the first sin"
+    - "dark souls iii"
+    - "dark souls"
+    - "dark souls remastered"
+    - "darkest dungeon"
+    - "darkwood"
+    - "days gone"
+    - "dead by daylight"
+    - "dead cells"
+    - "dead space 2"
+    - "dead space 3"
+    - "dead space"
+    - "deadly premonition"
+    - "death stranding 2"
+    - "death stranding"
+    - "death stranding director's cut"
+    - "death's door"
+    - "deathloop"
+    - "deltarune"
+    - "deltarune chapter 1"
+    - "deltarune chapter 2"
+    - "demon's souls"
+    - "destiny 2"
+    - "destroy all humans!"
+    - "detroit become human"
+    - "deus ex"
+    - "deus ex human revolution"
+    - "deus ex mankind divided"
+    - "devil may cry 2"
+    - "devil may cry 3 dante's awakening - special edition"
+    - "devil may cry 3 dante's awakening"
+    - "devil may cry 4"
+    - "devil may cry 5"
+    - "devil may cry 5 special edition"
+    - "devil may cry hd collection"
+    - "devil may cry"
+    - "diablo iv"
+    - "digimon survive"
+    - "digimon world next order"
+    - "disco elysium"
+    - "disco elysium the final cut"
+    - "dishonored"
+    - "dishonored death of the outsider"
+    - "dishonored definitive edition"
+    - "disney dreamlight valley"
+    - "disney's aladdin"
+    - "dmc devil may cry"
+    - "doki doki literature club!"
+    - "don't starve together"
+    - "donkey kong country 2 diddy's kong quest"
+    - "donkey kong country returns"
+    - "donkey kong country"
+    - "donkey kong country tropical freeze"
+    - "donut county"
+    - "doom eternal"
+    - "doom"
+    - "downwell"
+    - "dragon age origins - awakening"
+    - "dragon age origins"
+    - "dragon ball fighterz"
+    - "dragon ball gt final bout"
+    - "dragon ball z budokai tenkaichi 3"
+    - "dragon ball z budokai tenkaichi"
+    - "dragon ball xenoverse"
+    - "dragon quest ii luminaries of the legendary line"
+    - "dragon quest v hand of the heavenly bride"
+    - "dragon quest xi s echoes of an elusive age - definitive edition"
+    - "dragon quest"
+    - "dragon's dogma"
+    - "dragon's dogma dark arisen"
+    - "drakengard 3"
+    - "dusk"
+    - "duskers"
+    - "dwarf fortress"
+    - "dying light 2 stay human"
+    - "earthblade"
+    - "earthbound beginnings"
+    - "earthbound"
+    - "elden ring"
+    - "elden ring shadow of the erdtree"
+    - "ender lilies quietus of the knights"
+    - "enter the gungeon"
+    - "europa universalis iv"
+    - "everhood"
+    - "evil west"
+    - "f-zero x"
+    - "f.e.a.r."
+    - "fable ii"
+    - "factorio"
+    - "faith the unholy trinity"
+    - "fall guys"
+    - "fallout 2"
+    - "fallout 3"
+    - "fallout 3 game of the year edition"
+    - "fallout 4"
+    - "fallout shelter"
+    - "fallout new vegas"
+    - "far cry 3"
+    - "far cry 3 blood dragon"
+    - "far cry 4"
+    - "far cry 5"
+    - "far cry 6"
+    - "fatal frame ii crimson butterfly"
+    - "fate/stay night"
+    - "fear & hunger"
+    - "fez"
+    - "fifa 13"
+    - "fifa 14"
+    - "fifa 23"
+    - "figment"
+    - "final fantasy i & ii dawn of souls"
+    - "final fantasy iii"
+    - "final fantasy iv"
+    - "final fantasy ix"
+    - "final fantasy tactics"
+    - "final fantasy v"
+    - "final fantasy vi"
+    - "final fantasy vii rebirth"
+    - "final fantasy vii remake intergrade"
+    - "final fantasy vii remake"
+    - "final fantasy vii"
+    - "final fantasy viii"
+    - "final fantasy x hd remaster"
+    - "final fantasy x"
+    - "final fantasy x/x-2 hd remaster"
+    - "final fantasy xiii-2"
+    - "final fantasy xiv online"
+    - "final fantasy xiv endwalker"
+    - "final fantasy xiv shadowbringers"
+    - "final fantasy xv"
+    - "final fantasy xv royal edition"
+    - "final fantasy xvi"
+    - "fire emblem engage"
+    - "fire emblem fates birthright"
+    - "fire emblem fates revelation"
+    - "fire emblem warriors three hopes"
+    - "fire emblem awakening"
+    - "fire emblem genealogy of the holy war"
+    - "fire emblem new mystery of the emblem"
+    - "fire emblem path of radiance"
+    - "fire emblem radiant dawn"
+    - "fire emblem shadow dragon"
+    - "fire emblem the blazing blade"
+    - "fire emblem the sacred stones"
+    - "fire emblem thracia 776"
+    - "fire emblem three houses"
+    - "firewatch"
+    - "five nights at freddy's 2"
+    - "five nights at freddy's 4"
+    - "five nights at freddy's"
+    - "flower, sun, and rain"
+    - "flower, sun, and rain murder and mystery in paradise"
+    - "for honor"
+    - "forspoken"
+    - "fortnite"
+    - "fortnite chapter 4"
+    - "forza horizon 5"
+    - "friday night funkin'"
+    - "friday the 13th the game"
+    - "fruit ninja classic"
+    - "ftl faster than light"
+    - "full metal daemon muramasa"
+    - "gal guardians demon purge"
+    - "gang beasts"
+    - "garry's mod"
+    - "garten of banban 2"
+    - "garten of banban"
+    - "gears 5"
+    - "gears of war 2"
+    - "gears of war"
+    - "genshin impact"
+    - "geometry dash"
+    - "ghost of tsushima"
+    - "ghost of tsushima director's cut"
+    - "ghost trick phantom detective"
+    - "ghostrunner"
+    - "ghostwire tokyo"
+    - "gloomwood"
+    - "goat simulator"
+    - "god of war ii"
+    - "god of war iii remastered"
+    - "god of war ragnarök"
+    - "god of war"
+    - "god of war ascension"
+    - "god of war chains of olympus"
+    - "goldeneye 007"
+    - "gorogoa"
+    - "grand theft auto iii"
+    - "grand theft auto iv"
+    - "grand theft auto v"
+    - "grand theft auto"
+    - "grand theft auto san andreas"
+    - "grand theft auto vice city"
+    - "gravity rush 2"
+    - "gris"
+    - "guacamelee!"
+    - "guilty gear xrd rev 2"
+    - "guilty gear xx accent core plus r"
+    - "guilty gear strive"
+    - "guitar hero 5"
+    - "guitar hero iii legends of rock"
+    - "gun"
+    - "gungrave g.o.r.e"
+    - "hades"
+    - "half-life 2"
+    - "half-life 2 episode one"
+    - "half-life 2 episode two"
+    - "half-life alyx"
+    - "half-life opposing force"
+    - "halo 3"
+    - "halo 4"
+    - "halo 5 guardians"
+    - "halo infinite"
+    - "halo reach"
+    - "halo the master chief collection"
+    - "happy wheels"
+    - "harvestella"
+    - "haunting ground"
+    - "hearthstone"
+    - "hello charlotte ep.3 childhood's end"
+    - "helltaker"
+    - "hi-fi rush"
+    - "higurashi no naku koro ni chapter 2 - watanagashi"
+    - "higurashi when they cry"
+    - "hitman 2"
+    - "hitman 3"
+    - "hitman world of assassination"
+    - "hitman blood money"
+    - "hogwarts legacy"
+    - "hollow knight"
+    - "hollow knight voidheart edition"
+    - "horizon forbidden west"
+    - "horizon zero dawn"
+    - "horizon zero dawn complete edition"
+    - "hotel dusk room 215"
+    - "hotline miami"
+    - "hyper demon"
+    - "hyper light drifter"
+    - "hyrule warriors age of calamity"
+    - "ib"
+    - "ico"
+    - "ikaruga"
+    - "immortality"
+    - "indivisible"
+    - "infamous 2"
+    - "infamous second son"
+    - "injustice gods among us"
+    - "inscryption"
+    - "into the breach"
+    - "it takes two"
+    - "jazzpunk"
+    - "jet set radio future"
+    - "jet set radio"
+    - "jojo's bizarre adventure"
+    - "jojo's bizarre adventure eyes of heaven"
+    - "jojo’s bizarre adventure all-star battle r"
+    - "journey"
+    - "judas"
+    - "judgment"
+    - "just cause 2"
+    - "just cause 3"
+    - "katamari damacy reroll"
+    - "katamari damacy"
+    - "katana zero"
+    - "keep talking and nobody explodes"
+    - "kena bridge of spirits"
+    - "kenshi"
+    - "kentucky route zero"
+    - "kentucky route zero tv edition"
+    - "kid icarus uprising"
+    - "killer7"
+    - "killing floor 2"
+    - "killzone 3"
+    - "kingdom come deliverance"
+    - "kingdom hearts final mix"
+    - "kingdom hearts ii final mix"
+    - "kingdom hearts ii"
+    - "kingdom hearts iii"
+    - "kingdom hearts"
+    - "kingdoms of amalur reckoning"
+    - "kirby and the forgotten land"
+    - "kirby super star ultra"
+    - "kirby's adventure"
+    - "kirby's dream land 2"
+    - "kirby's dream land 3"
+    - "kirby's dream land"
+    - "kirby's return to dream land"
+    - "kirby planet robobot"
+    - "kirby’s return to dream land deluxe"
+    - "klonoa 2 lunatea's veil"
+    - "klonoa phantasy reverie series"
+    - "klonoa door to phantomile"
+    - "kuru kuru kururin"
+    - "la-mulana"
+    - "labyrinth of galleria the moon society"
+    - "league of legends"
+    - "left 4 dead 2"
+    - "left 4 dead"
+    - "legacy of kain soul reaver"
+    - "lego batman 2 dc super heroes"
+    - "lego batman 3 beyond gotham"
+    - "lego batman the video game"
+    - "lego builder's journey"
+    - "lego harry potter years 1-4"
+    - "lego marvel super heroes"
+    - "library of ruina"
+    - "lies of p"
+    - "life is strange 2"
+    - "life is strange"
+    - "life is strange before the storm"
+    - "life is strange true colors"
+    - "lightning returns final fantasy xiii"
+    - "like a dragon gaiden the man who erased his name"
+    - "lil gator game"
+    - "limbo"
+    - "limbus company"
+    - "lisa the joyful"
+    - "lisa"
+    - "little nightmares ii"
+    - "littlebigplanet"
+    - "live a live"
+    - "lobotomy corporation"
+    - "lollipop chainsaw"
+    - "lost judgment"
+    - "luigi's mansion 3"
+    - "luigi's mansion dark moon"
+    - "lunistice"
+    - "machinarium"
+    - "madworld"
+    - "mafia definitive edition"
+    - "mario & luigi bowser's inside story"
+    - "mario & luigi superstar saga + bowser's minions"
+    - "mario + rabbids sparks of hope"
+    - "mario hoops 3-on-3"
+    - "mario kart 64"
+    - "mario kart 7"
+    - "mario kart 8 deluxe"
+    - "mario kart 8"
+    - "mario kart ds"
+    - "mario kart wii"
+    - "mario kart double dash!!"
+    - "mario kart super circuit"
+    - "mario party 2"
+    - "mario party 3"
+    - "mario party 4"
+    - "mario party superstars"
+    - "mario power tennis"
+    - "mario strikers battle league"
+    - "mario super sluggers"
+    - "mario vs. donkey kong"
+    - "mark of the ninja"
+    - "marvel snap"
+    - "marvel vs. capcom clash of super heroes"
+    - "marvel's guardians of the galaxy"
+    - "marvel's midnight suns"
+    - "marvel's spider-man remastered"
+    - "marvel's spider-man"
+    - "marvel's spider-man miles morales"
+    - "mass effect 2"
+    - "mass effect 3"
+    - "mass effect legendary edition"
+    - "mass effect"
+    - "max payne 2 the fall of max payne"
+    - "max payne 3"
+    - "max payne"
+    - "mega man 2"
+    - "mega man 3"
+    - "mega man 7"
+    - "mega man legends"
+    - "mega man x"
+    - "mega man x5"
+    - "mega man x6"
+    - "mega man x7"
+    - "mega man x8"
+    - "mega man zero 2"
+    - "mega man zx advent"
+    - "mega man zx"
+    - "mega man"
+    - "megami ibunroku persona"
+    - "melatonin"
+    - "melty blood actress again current code"
+    - "melty blood type lumina"
+    - "metal gear 2 solid snake"
+    - "metal gear rising revengeance"
+    - "metal gear solid 2 sons of liberty"
+    - "metal gear solid 3 snake eater hd edition"
+    - "metal gear solid 3 snake eater"
+    - "metal gear solid 3 subsistence"
+    - "metal gear solid 4 guns of the patriots"
+    - "metal gear solid hd collection"
+    - "metal gear solid v ground zeroes"
+    - "metal gear solid v the phantom pain"
+    - "metal gear solid"
+    - "metal gear solid peace walker"
+    - "metal gear solid the twin snakes"
+    - "metal gear"
+    - "metal slug"
+    - "metal hellsinger"
+    - "metro 2033 redux"
+    - "metro 2033"
+    - "metroid dread"
+    - "metroid fusion"
+    - "metroid ii return of samus"
+    - "metroid prime 2 echoes"
+    - "metroid prime remastered"
+    - "metroid prime"
+    - "metroid samus returns"
+    - "metroid zero mission"
+    - "microsoft minesweeper"
+    - "middle-earth shadow of mordor"
+    - "mighty no. 9"
+    - "milk inside a bag of milk inside a bag of milk"
+    - "milk outside a bag of milk outside a bag of milk"
+    - "minecraft"
+    - "mirror's edge"
+    - "monster hunter 4 ultimate"
+    - "monster hunter generations ultimate"
+    - "monster hunter rise"
+    - "monster hunter rise sunbreak"
+    - "monster hunter world"
+    - "moon remix rpg adventure"
+    - "moonlighter"
+    - "moonscars"
+    - "mortal kombat 11"
+    - "mortal kombat 3"
+    - "mortal kombat x"
+    - "mortal kombat xl"
+    - "mortal kombat"
+    - "mortal shell"
+    - "mother 3"
+    - "mount & blade warband"
+    - "ms. pac-man"
+    - "multiversus"
+    - "muse dash"
+    - "naruto shippuden ultimate ninja storm 4"
+    - "naruto ultimate ninja 3"
+    - "nba jam"
+    - "need for speed heat"
+    - "need for speed hot pursuit"
+    - "need for speed unbound"
+    - "needy streamer overload"
+    - "neet girl date night"
+    - "neo the world ends with you"
+    - "neon white"
+    - "new super mario bros. 2"
+    - "new super mario bros. wii"
+    - "new super mario bros."
+    - "ni no kuni ii revenant kingdom"
+    - "ni no kuni wrath of the white witch"
+    - "nickelodeon all-star brawl"
+    - "nicktoons unite!"
+    - "nier replicant ver.1.22474487139..."
+    - "nier"
+    - "nier automata - game of the yorha edition"
+    - "nier automata - the end of yorha edition"
+    - "nier automata"
+    - "night in the woods"
+    - "ninja gaiden black"
+    - "nioh 2"
+    - "no more heroes 2 desperate struggle"
+    - "no more heroes iii"
+    - "no more heroes"
+    - "nobody saves the world"
+    - "norco"
+    - "nuclear throne"
+    - "octodad dadliest catch"
+    - "octopath traveler ii"
+    - "odin sphere leifthrasir"
+    - "omori"
+    - "ori and the blind forest"
+    - "ori and the will of the wisps"
+    - "osu!"
+    - "outer wilds"
+    - "outer wilds echoes of the eye"
+    - "outlast ii"
+    - "outlast"
+    - "overcooked! 2"
+    - "overcooked!"
+    - "overwatch 2"
+    - "overwatch"
+    - "oxenfree"
+    - "pac-man in a tin"
+    - "pac-man world re-pac"
+    - "pac-man"
+    - "paladins"
+    - "paper mario the origami king"
+    - "paper mario the thousand-year door"
+    - "parasite eve ii"
+    - "path of exile"
+    - "pathologic 2"
+    - "payday the heist"
+    - "peggle deluxe"
+    - "peggle"
+    - "persona 2 eternal punishment"
+    - "persona 3 fes"
+    - "persona 3 portable"
+    - "persona 4 arena ultimax"
+    - "persona 4 arena"
+    - "persona 4 golden"
+    - "persona 4"
+    - "persona 5 royal"
+    - "persona 5 strikers"
+    - "persona 5"
+    - "phantom brigade"
+    - "phoenix wright ace attorney - dual destinies"
+    - "phoenix wright ace attorney - spirit of justice"
+    - "phoenix wright ace attorney - trials and tribulations"
+    - "phoenix wright ace attorney trilogy"
+    - "phoenix wright ace attorney"
+    - "picross s3"
+    - "pikmin 2"
+    - "pikmin 3"
+    - "pizza tower"
+    - "plague inc evolved"
+    - "planescape torment"
+    - "plants vs. zombies 2 it's about time"
+    - "plants vs. zombies"
+    - "playstation all-stars battle royale"
+    - "pokã©mon diamond"
+    - "pokémon añil"
+    - "pokémon black version 2"
+    - "pokémon black"
+    - "pokémon blue"
+    - "pokémon crystal"
+    - "pokémon emerald"
+    - "pokémon go"
+    - "pokémon gold"
+    - "pokémon heartgold"
+    - "pokémon leafgreen"
+    - "pokémon legends arceus"
+    - "pokémon moon"
+    - "pokémon mystery dungeon blue rescue team"
+    - "pokémon mystery dungeon explorers of time"
+    - "pokémon pinball ruby & sapphire"
+    - "pokémon platinum"
+    - "pokémon red"
+    - "pokémon ruby"
+    - "pokémon rumble blast"
+    - "pokémon scarlet"
+    - "pokémon shield"
+    - "pokémon shining pearl"
+    - "pokémon stadium"
+    - "pokémon sun"
+    - "pokémon sword"
+    - "pokémon unite"
+    - "pokémon violet"
+    - "pokémon white"
+    - "portal 2"
+    - "portal"
+    - "postal 2"
+    - "potion craft"
+    - "powerwash simulator"
+    - "prince of persia"
+    - "prince of persia the sands of time"
+    - "prince of persia warrior within"
+    - "professor layton and the curious village"
+    - "professor layton and the miracle mask"
+    - "professor layton and the unwound future"
+    - "professor layton vs. phoenix wright ace attorney"
+    - "project zomboid"
+    - "prototype 2"
+    - "prototype"
+    - "psychonauts 2"
+    - "psychonauts"
+    - "pubg battlegrounds"
+    - "puyo puyo tetris"
+    - "pyre"
+    - "quake ii"
+    - "rain world"
+    - "ratchet & clank rift apart"
+    - "ratchet & clank size matters"
+    - "rayman legends"
+    - "rayman origins"
+    - "rayman raving rabbids"
+    - "red dead redemption 2"
+    - "red dead redemption"
+    - "remember me"
+    - "remnant from the ashes"
+    - "resident evil 2"
+    - "resident evil 3"
+    - "resident evil 3 nemesis"
+    - "resident evil 4"
+    - "resident evil 4 ultimate hd edition"
+    - "resident evil 4 wii edition"
+    - "resident evil 5"
+    - "resident evil 6"
+    - "resident evil 7 biohazard"
+    - "resident evil village"
+    - "resident evil village winters' expansion"
+    - "resident evil"
+    - "resident evil revelations"
+    - "resistance fall of man"
+    - "return of the obra dinn"
+    - "return to monkey island"
+    - "returnal"
+    - "rez infinite"
+    - "ridge racer type 4"
+    - "rimworld"
+    - "ristar"
+    - "river city girls"
+    - "roblox"
+    - "rock band 2"
+    - "rocket league"
+    - "rollerdrome"
+    - "ruined king a league of legends story"
+    - "ruiner"
+    - "rule of rose"
+    - "s.t.a.l.k.e.r. shadow of chernobyl"
+    - "sable"
+    - "saints row 2"
+    - "saints row iv"
+    - "saints row gat out of hell"
+    - "saints row the third"
+    - "saya no uta"
+    - "sayonara wild hearts"
+    - "scorn"
+    - "scott pilgrim vs. the world the game - complete edition"
+    - "scribblenauts"
+    - "sea of thieves"
+    - "secret of mana"
+    - "sekiro shadows die twice - goty edition"
+    - "sekiro shadows die twice"
+    - "serial experiments lain"
+    - "shadow of the colossus"
+    - "shadow of the tomb raider"
+    - "shadow the hedgehog"
+    - "shadow warrior"
+    - "shantae and the pirate's curse"
+    - "shantae and the seven sirens"
+    - "shantae half-genie hero"
+    - "shenmue"
+    - "shin megami tensei iii nocturne - hd remaster"
+    - "shin megami tensei iv"
+    - "shin megami tensei iv apocalypse"
+    - "shin megami tensei v"
+    - "shin megami tensei"
+    - "shin megami tensei devil summoner - soul hackers"
+    - "shin megami tensei devil survivor"
+    - "shin megami tensei digital devil saga"
+    - "shin megami tensei nocturne"
+    - "shin megami tensei persona"
+    - "shovel knight"
+    - "shovel knight treasure trove"
+    - "sid meier's civilization v"
+    - "sid meier's civilization vi"
+    - "sifu"
+    - "signalis"
+    - "silent hill 2"
+    - "silent hill 2 restless dreams"
+    - "silent hill 3"
+    - "silent hill"
+    - "silent hill homecoming"
+    - "sin and punishment"
+    - "skate 3"
+    - "sleeping dogs definitive edition"
+    - "slender the eight pages"
+    - "slither.io"
+    - "sly cooper and the thievius raccoonus"
+    - "snake"
+    - "snatcher"
+    - "sniper elite 4"
+    - "soma"
+    - "somerville"
+    - "sonic 3d blast"
+    - "sonic advance"
+    - "sonic adventure 2"
+    - "sonic adventure 2 battle"
+    - "sonic and the secret rings"
+    - "sonic cd"
+    - "sonic colors"
+    - "sonic forces"
+    - "sonic frontiers"
+    - "sonic generations"
+    - "sonic lost world"
+    - "sonic mania"
+    - "sonic origins"
+    - "sonic rush adventure"
+    - "sonic rush"
+    - "sonic the hedgehog 2"
+    - "sonic the hedgehog 3 & knuckles"
+    - "sonic the hedgehog"
+    - "sonic unleashed"
+    - "soul hackers 2"
+    - "south park the fractured but whole"
+    - "spiritfarer"
+    - "splatoon 2"
+    - "splatoon 3"
+    - "splatoon"
+    - "spongebob squarepants battle for bikini bottom"
+    - "spore"
+    - "spyro reignited trilogy"
+    - "star wars battlefront ii"
+    - "star wars jedi fallen order"
+    - "star wars jedi survivor"
+    - "star wars battlefront ii"
+    - "star wars battlefront"
+    - "star wars episode iii - revenge of the sith"
+    - "star wars knights of the old republic"
+    - "star wars the force unleashed ii"
+    - "star wars the force unleashed"
+    - "stardew valley"
+    - "stranger of paradise final fantasy origin"
+    - "stray"
+    - "street fighter ii turbo"
+    - "street fighter ii"
+    - "street fighter iii 3rd strike"
+    - "street fighter v"
+    - "streets of rage 4"
+    - "subnautica"
+    - "suikoden ii"
+    - "suikoden"
+    - "sunset overdrive"
+    - "super castlevania iv"
+    - "super hexagon"
+    - "super kiwi 64"
+    - "super mario 3d all-stars"
+    - "super mario 3d land"
+    - "super mario 3d world"
+    - "super mario 64 ds"
+    - "super mario 64"
+    - "super mario bros. 2"
+    - "super mario bros. 3"
+    - "super mario bros."
+    - "super mario galaxy 2"
+    - "super mario galaxy"
+    - "super mario maker 2"
+    - "super mario odyssey"
+    - "super mario party"
+    - "super mario rpg legend of the seven stars"
+    - "super mario sunshine"
+    - "super mario world 2 yoshi's island"
+    - "super mario world"
+    - "super meat boy"
+    - "super metroid"
+    - "super paper mario"
+    - "super smash bros. brawl"
+    - "super smash bros. for nintendo 3ds"
+    - "super smash bros. for wii u"
+    - "super smash bros. ultimate"
+    - "super smash bros."
+    - "superhot"
+    - "superliminal"
+    - "superman the new superman adventures"
+    - "system shock"
+    - "tabletop simulator"
+    - "tactics ogre reborn"
+    - "tales of arise"
+    - "tales of berseria"
+    - "tales of symphonia"
+    - "tales of vesperia"
+    - "tales of zestiria"
+    - "team fortress 2"
+    - "team sonic racing"
+    - "teenage mutant ninja turtles shredder's revenge"
+    - "tekken 3"
+    - "tekken 4"
+    - "tekken 6"
+    - "tekken 7"
+    - "tekken tag tournament 2"
+    - "telling lies"
+    - "terraria"
+    - "tetris"
+    - "the 25th ward the silver case"
+    - "the artful escape"
+    - "the beginner's guide"
+    - "the binding of isaac rebirth"
+    - "the callisto protocol"
+    - "the dark pictures anthology man of medan"
+    - "the dark pictures anthology the devil in me"
+    - "the elder scrolls iii morrowind"
+    - "the elder scrolls iv oblivion"
+    - "the elder scrolls v skyrim - special edition"
+    - "the elder scrolls v skyrim"
+    - "the evil within 2"
+    - "the evil within"
+    - "the forest"
+    - "the forgotten city"
+    - "the godfather"
+    - "the great ace attorney 2 resolve"
+    - "the great ace attorney adventures"
+    - "the house in fata morgana"
+    - "the house in fata morgana a requiem for innocence"
+    - "the jackbox party pack 3"
+    - "the jackbox party pack"
+    - "the king of fighters '98"
+    - "the king of fighters xv"
+    - "the last guardian"
+    - "the last of us part i"
+    - "the last of us part ii"
+    - "the last of us remastered"
+    - "the last of us"
+    - "the legend of heroes trails of cold steel ii"
+    - "the legend of heroes trails of cold steel"
+    - "the legend of heroes trails to azure"
+    - "the legend of zelda"
+    - "the legend of zelda a link between worlds"
+    - "the legend of zelda a link to the past"
+    - "the legend of zelda breath of the wild"
+    - "the legend of zelda link's awakening"
+    - "the legend of zelda majora's mask 3d"
+    - "the legend of zelda majora's mask"
+    - "the legend of zelda ocarina of time 3d"
+    - "the legend of zelda ocarina of time"
+    - "the legend of zelda oracle of ages"
+    - "the legend of zelda oracle of seasons"
+    - "the legend of zelda skyward sword hd"
+    - "the legend of zelda tears of the kingdom"
+    - "the legend of zelda the minish cap"
+    - "the legend of zelda the wind waker hd"
+    - "the legend of zelda twilight princess hd"
+    - "the legend of zelda twilight princess"
+    - "the lego movie videogame"
+    - "the lord of the rings the two towers"
+    - "the messenger"
+    - "the missing j.j. macfield and the island of memories"
+    - "the outer worlds"
+    - "the secret of monkey island"
+    - "the silver case"
+    - "the simpsons arcade game"
+    - "the simpsons game"
+    - "the simpsons road rage"
+    - "the sims 4"
+    - "the stanley parable"
+    - "the stanley parable ultra deluxe"
+    - "the swapper"
+    - "the ultimate doom"
+    - "the walking dead a new frontier"
+    - "the walking dead season one"
+    - "the walking dead season two"
+    - "the warriors"
+    - "the witcher 2 assassins of kings"
+    - "the witcher 3 wild hunt - game of the year edition"
+    - "the witcher 3 wild hunt - hearts of stone"
+    - "the witcher 3 wild hunt"
+    - "the witcher"
+    - "the witness"
+    - "the wolf among us"
+    - "the world ends with you"
+    - "the world ends with you final remix"
+    - "tiny tina's wonderlands"
+    - "tinykin"
+    - "titanfall 2"
+    - "to the moon"
+    - "tokyo necro"
+    - "tom clancy's rainbow six siege"
+    - "tom clancy's splinter cell pandora tomorrow"
+    - "tom clancy's the division"
+    - "tomb raider"
+    - "tomodachi life"
+    - "tony hawk's pro skater 1+2"
+    - "touhou koumakyou the embodiment of scarlet devil"
+    - "toy story 2 buzz lightyear to the rescue!"
+    - "transistor"
+    - "trek to yomi"
+    - "tunic"
+    - "twelve minutes"
+    - "twisted metal"
+    - "ultimate spider-man"
+    - "umineko when they cry chiru"
+    - "uncharted 2 among thieves"
+    - "uncharted 3 drake's deception"
+    - "uncharted 4 a thief's end"
+    - "uncharted drake's fortune"
+    - "uncharted the lost legacy"
+    - "uncharted the nathan drake collection"
+    - "undertale"
+    - "unpacking"
+    - "until dawn"
+    - "untitled goose game"
+    - "utawarerumono mask of truth"
+    - "va-11 hall-a cyberpunk bartender action"
+    - "vagrant story"
+    - "valheim"
+    - "valkyrie elysium"
+    - "valorant"
+    - "vampire survivors"
+    - "wanted dead"
+    - "warcraft iii the frozen throne"
+    - "wario land 3"
+    - "warioware gold"
+    - "warioware, inc. mega microgames!"
+    - "warioware get it together!"
+    - "warioware smooth moves"
+    - "watch dogs 2"
+    - "we love katamari reroll + royal reverie"
+    - "we love katamari"
+    - "weird west"
+    - "what remains of edith finch"
+    - "wii sports"
+    - "wild hearts"
+    - "witch on the holy night"
+    - "wo long fallen dynasty"
+    - "wolfenstein ii the new colossus"
+    - "wolfenstein the new order"
+    - "wonderful everyday down the rabbit-hole"
+    - "wordle"
+    - "world of horror"
+    - "world of warcraft"
+    - "worms armageddon"
+    - "wwe smackdown vs. raw 2008"
+    - "xenoblade chronicles 2"
+    - "xenoblade chronicles 3"
+    - "xenoblade chronicles"
+    - "xenoblade chronicles definitive edition"
+    - "xenoblade chronicles future connected"
+    - "xenosaga episode i der wille zur macht"
+    - "xenosaga episode iii also sprach zarathustra"
+    - "yakuza 0"
+    - "yakuza 2"
+    - "yakuza 3 remastered"
+    - "yakuza 4 remastered"
+    - "yakuza 4"
+    - "yakuza 5 remastered"
+    - "yakuza kiwami"
+    - "yakuza like a dragon"
+    - "your turn to die death game by majority"
+    - "ys viii lacrimosa of dana"
+    - "ys the oath in felghana"
+    - "yu-gi-oh! master duel"
+    - "yume nikki"
+    - "zelda ii the adventure of link"
+    - "zero escape nine hours, nine persons, nine doors"
+    - "zero escape zero time dilemma"
+    - "zeroranger"
+    - "ōkami hd"
+    - "half-life"
+
+- lookup: genre
+  examples: |
+    - adventure
+    - real time strategy
+    - moba
+    - tactical
+    - puzzle
+    - fighting
+    - sport
+    - brawler
+    - shooter
+    - turn based strategy
+    - point-and-click
+    - platform
+    - visual novel
+    - simulator
+    - rpg
+    - music
+    - arcade
+    - strategy
+    - card & board game
+    - pinball
+    - quiz/trivia
+    - racing
+    - indie
+
+- lookup: team
+  examples:  |
+    - ember lab
+    - ea
+    - tour de pizza
+    - 2k boston
+    - vicarious visions
+    - piacci
+    - private division
+    - looking glass studios
+    - interplay entertainment
+    - miro haverinen
+    - pagodawest games
+    - 2k games
+    - warhorse studios
+    - imgn.pro
+    - ea canada
+    - unknown worlds entertainment
+    - the coalition
+    - raw fury
+    - berserk games
+    - gameloft
+    - nintendo epd production group no. 3
+    - k2
+    - bungie
+    - black mermaid
+    - crows crows crows
+    - aspect co. ltd
+    - volition
+    - kojima productions
+    - hazelight studios
+    - wb games
+    - konami computer entertainment japan
+    - cardboard computer
+    - sce santa monica studio
+    - nintendo
+    - giant squid
+    - gabe cuzzillo
+    - team17
+    - bethesda softworks
+    - roll7
+    - makura
+    - ubisoft shanghai
+    - sega of japan
+    - thatgamecompany
+    - aniplex
+    - fizz creations
+    - dear villagers
+    - halfbrick studios
+    - lw media
+    - creatures inc.
+    - motion twin
+    - system erasure
+    - united front games
+    - nex entertainment
+    - housemarque
+    - team shanghai alice
+    - sony computer entertainment europe
+    - tribute games
+    - nazca corporation
+    - zenimax europe
+    - treasure
+    - nihon falcom
+    - ion storm
+    - nintendo ead software development group no.3
+    - cing
+    - illfonic
+    - nuverse
+    - atari, inc.
+    - scottgames
+    - neowiz
+    - midway games
+    - spike chunsoft
+    - deep silver
+    - (archive) square product development division 4
+    - videocult
+    - hoyoverse
+    - timi
+    - traveller's tales
+    - annapurna interactive
+    - fellow traveller
+    - machinegames
+    - 3909
+    - capcom usa
+    - ea sports
+    - humble bundle
+    - massive monster
+    - beethoven & dinosaur
+    - square enix creative business unit iii
+    - riot games
+    - askiisoft
+    - dodge roll
+    - deck13 spotlight
+    - gearbox publishing
+    - nintendo epd
+    - hitmaker
+    - epic games
+    - moonsprout games
+    - dotemu
+    - acid nerve
+    - harmonix music systems
+    - intelligent systems co., ltd.
+    - dramatic create
+    - soleil
+    - kouri
+    - square
+    - night school studio
+    - access games
+    - aksys games
+    - psyonix
+    - ghostlight ltd.
+    - phobia game studio
+    - square electronic arts
+    - kikiyama
+    - steve howse
+    - krafton
+    - lizardcube
+    - galactic cafe
+    - asobo studio
+    - hi-rez studios
+    - telltale games
+    - all in! games
+    - 3d: doom daddy digital
+    - novect
+    - nintendo spd group no. 2
+    - panstasz
+    - wolfeye studios
+    - rozner labs software group
+    - arkane studios
+    - geography of robots
+    - cd projekt
+    - ascii entertainment
+    - shedworks
+    - omega force
+    - ninja theory
+    - cyberconnect2
+    - nikita kryukov
+    - necrophone games
+    - type-moon
+    - overkill software
+    - mercurysteam
+    - virtuos
+    - wube software ltd.
+    - nis america
+    - running with scissors
+    - platinumgames
+    - pubg corp
+    - ready at dawn
+    - team salvato
+    - palcom
+    - bay 12 games
+    - 11 bit studios
+    - niantic labs
+    - vanillaware
+    - red kite games
+    - infinite fall
+    - titus software
+    - euphoric brothers
+    - starbreeze studios
+    - focus entertainment
+    - ryū ga gotoku studios
+    - griptonite games
+    - young horses
+    - chris nordgren
+    - playdead
+    - perfect world entertainment
+    - inti creates
+    - ea redwood shores
+    - heart machine
+    - nordic games publishing
+    - orange_juice
+    - tarsier studios
+    - infinity ward
+    - coffee stain publishing
+    - sabotage
+    - scott slucher
+    - jvc musical industries
+    - sie bend studio
+    - round8 studio
+    - remedy entertainment
+    - starbreeze publishing ab
+    - number none inc.
+    - red hook studios
+    - ubisoft san francisco
+    - rocksteady studios
+    - splashteam
+    - thekla, inc
+    - dangen entertainment
+    - thomas happ games
+    - bandai namco games
+    - the game kitchen
+    - beenox
+    - dani
+    - sony interactive entertainment
+    - gearbox software
+    - retro studios
+    - chunsoft
+    - bandai
+    - yuke's co., ltd.
+    - airship syndicate
+    - terrible toybox
+    - mangagamer
+    - robtop games
+    - red barrels
+    - moppin
+    - brace yourself games
+    - deck nine
+    - capcom production studio 3
+    - andrew shouldice
+    - intelligent systems
+    - microsoft game studios
+    - live wire
+    - portkey games
+    - panic
+    - capcom
+    - massive entertainment
+    - bandai namco entertainment
+    - pandemic studios
+    - pionner ldc
+    - now production
+    - iggymob
+    - team silent
+    - superhot team
+    - daniel mullins games
+    - bioware edmonton
+    - wiz
+    - adamgryu
+    - guerrilla games
+    - fruitbat factory
+    - konami computer entertainment tokyo
+    - id software
+    - toylogic
+    - thunder lotus games
+    - fun labs
+    - virgin interactive entertainment, inc.
+    - monolith soft
+    - lowtech studios
+    - coffee stain studios
+    - kadokawa shoten
+    - ape
+    - thq wireless
+    - klei entertainment
+    - capcom development division 2
+    - drinkbox studios
+    - intergrow
+    - 2k australia
+    - campo santo
+    - fancy force
+    - irrational games
+    - airdorf games
+    - playtonic friends
+    - sumo digital
+    - turtle rock studios
+    - facepalm games
+    - 2k marin
+    - studio pixel
+    - jumpship
+    - nintendo of america
+    - team ico
+    - ubisoft montreal
+    - nokia
+    - ea digital illusions ce
+    - the lego group
+    - ninja kiwi
+    - nintendo software technology
+    - ninja_muffin99
+    - hypnos entertainment
+    - radical entertainment
+    - quantic dream
+    - mundfish
+    - grezzo
+    - big trash games
+    - omocat
+    - sega
+    - niceplay game
+    - finji
+    - aspyr media
+    - motive studios
+    - avalanche studios
+    - striking distance studios
+    - feral interactive
+    - ubisoft
+    - buena vista games
+    - ebb software
+    - the outsiders
+    - steel crate games
+    - neversoft entertainment
+    - virgin interactive entertainment (europe) ltd.
+    - invisible handlebar
+    - torn banner studios
+    - player first games
+    - lionhead studios
+    - arc system works
+    - microsoft studios
+    - wayforward technologies
+    - wayforward
+    - sie santa monica studio
+    - cavia
+    - ark heiral
+    - certain affinity
+    - netherrealm studios
+    - sorath
+    - gunfire games
+    - ubisoft entertainment
+    - konami
+    - kepler interactive
+    - armor project
+    - koei tecmo
+    - jason roberts
+    - avalanche software
+    - sonic team
+    - endnight games ltd
+    - general computer corporation (gcc)
+    - nintendo australia
+    - matheus valadares
+    - b.b. studio
+    - eighting
+    - ubisoft sofia
+    - techland
+    - innersloth
+    - nintendo ead software development group no.4
+    - sora
+    - nomada studio
+    - spike
+    - 8-4
+    - delphine software
+    - sega games
+    - nintendo ead tokyo
+    - luis antonio
+    - rockstar games
+    - eidos montréal
+    - capcom production studio 4
+    - namco hometek
+    - ubisoft chengdu
+    - alphadream
+    - enix america corporation
+    - nintendo r&d4
+    - maxis
+    - skip ltd.
+    - reikon games
+    - dena co., ltd.
+    - parsec productions
+    - gears for breakfast
+    - criterion games
+    - 5pb.
+    - playground games
+    - smilebit
+    - jupiter corporation
+    - activision
+    - thq
+    - extremely ok games
+    - wss playground
+    - supergiant games
+    - enhance games
+    - za/um
+    - grinding gear games
+    - capcom planning room 2
+    - eidos interactive
+    - ea black box
+    - capcom production studio 1
+    - gun interactive
+    - camelot software planning
+    - jast usa
+    - maddy makes games
+    - respawn entertainment
+    - daybreak game company
+    - hamster corporation
+    - origin systems
+    - nintendo spd group no. 1
+    - white owls inc.
+    - nitroplus
+    - tobyfox
+    - playstack
+    - mediatonic
+    - rare
+    - game mill entertainment
+    - leonard menchiari
+    - hudson soft
+    - double helix games
+    - shift
+    - treyarch
+    - xbox game studios
+    - toys for bob
+    - lucasfilm games
+    - paradox development studio
+    - ultra games
+    - next level games
+    - gr3 project
+    - whippoorwill
+    - cyberfront
+    - tt fusion
+    - facepunch studios
+    - bioware
+    - nintendo r&d1
+    - valve
+    - etherane
+    - qloc
+    - jackbox games, inc.
+    - supermassive games
+    - tecmo
+    - ghost games
+    - acid wizard studio
+    - goa games services ltd.
+    - rockstar toronto
+    - nikita kaf publishing
+    - humble games
+    - electronic arts
+    - sloclap
+    - h.a.n.d. inc.
+    - tecmo co., ltd.
+    - bedtime digital games
+    - spicy horse games
+    - ambrella
+    - french bread
+    - marvelous entertainment
+    - firaxis games
+    - koch media
+    - heavy iron studios
+    - obsidian entertainment
+    - larian studios
+    - 110 industries
+    - wb games montréal
+    - crytek frankfurt
+    - hal laboratory
+    - vivendi universal
+    - atari
+    - devolver digital
+    - techland publishing
+    - zenimax media
+    - binary haze interactive
+    - happy paintings
+    - the collective
+    - peroperogames
+    - snk corporation
+    - visceral games
+    - sierra entertainment
+    - microsoft
+    - skybound games
+    - fox interactive
+    - dead mage
+    - new blood interactive
+    - greg lobanov
+    - squaresoft
+    - ice-pick lodge
+    - ignition entertainment
+    - koei tecmo games
+    - snk
+    - nintendo ead
+    - bluehole studio
+    - modern storyteller
+    - xseed games
+    - sledgehammer games
+    - people can fly
+    - sce japan studio
+    - u.s. gold
+    - sonic team usa
+    - witch beam
+    - the new york times
+    - sold out sales & marketing
+    - hangar 13
+    - 4a games
+    - rogue entertainment
+    - ghost story games
+    - futurlab
+    - radical fish games
+    - the behemoth
+    - 505 games
+    - gaijin games
+    - nintendo ead group no. 2
+    - project sora
+    - light brick studio
+    - nintendo of europe
+    - majesco entertainment
+    - namco networks america, inc.
+    - tripwire interactive
+    - 07th expansion
+    - tose
+    - punchline
+    - jump over the age
+    - team meat
+    - victor interactive software
+    - core design
+    - ubisoft québec
+    - clover studio
+    - bandai namco studios
+    - monkeycraft co. ltd
+    - ludosity
+    - blue mammoth games
+    - everything unlimited ltd.
+    - nankidai
+    - digital sun games
+    - the sims studio
+    - square enix
+    - naughty dog
+    - deck13 interactive
+    - sukeban
+    - vanripper
+    - namco tales studio
+    - disney interactive studios
+    - monolith productions
+    - ea vancouver
+    - activision blizzard
+    - bandai namco entertainment america
+    - flying wild hog
+    - rockstar north
+    - ysbryd games
+    - re-logic
+    - mihoyo
+    - house house
+    - clickteam
+    - capcom development division 1
+    - warner bros. interactive entertainment
+    - distractionware
+    - tinybuild
+    - google
+    - lo-fi games
+    - x.d. network inc.
+    - hempuli
+    - misfits attic
+    - rose-engine
+    - studio zero
+    - project moon
+    - atlus usa
+    - headup games
+    - inlusio interactive
+    - ubisoft montpellier
+    - namco
+    - blizzard entertainment
+    - sony computer entertainment, inc. (scei)
+    - tri-crescendo
+    - taleworlds
+    - level-5
+    - fromsoftware
+    - ilca, inc.
+    - nippon ichi software
+    - ryu ga gotoku studios
+    - sega am2
+    - amanita design
+    - 5th cell
+    - gsc game world
+    - universal interactive studios
+    - delightworks
+    - sie japan studio
+    - eat sleep play inc.
+    - tango gameworks
+    - ghost town games
+    - dma design
+    - blitworks
+    - red entertainment
+    - vlambeer
+    - concernedape
+    - the indie stone
+    - paradox interactive
+    - atlus
+    - sega of america
+    - dc entertainment
+    - witchcraft inc.
+    - popcap games
+    - sega technical institute
+    - lab zero games
+    - team ninja
+    - the pokémon company
+    - aquaplus
+    - ludeon studios
+    - a grumpy fox
+    - love-de-lic
+    - capcom production studio 2
+    - crunching koalas
+    - cd projekt red
+    - pillow castle games
+    - furious bee limited
+    - poncle
+    - mobius digital
+    - don't nod
+    - level infinite
+    - io interactive
+    - nicalis, inc.
+    - yacht club games
+    - double fine
+    - team shinobi
+    - 38 studios
+    - luminous productions
+    - jupiter corp.
+    - josh wardle
+    - surefire.games
+    - silicon knights
+    - high impact games
+    - lucas pope
+    - take-two interactive
+    - freebird games
+    - ben esposito
+    - goodbyeworld games
+    - ndemic creations
+    - bluetwelve studio
+    - rockstar vancouver
+    - one more level
+    - grasshopper manufacture
+    - rising star games
+    - adult swim games
+    - second dinner
+    - konami digital entertainment
+    - crowbar collective
+    - half asleep
+    - nintendo ead group no. 1
+    - ubisoft toronto
+    - whiptail interactive
+    - crystal dynamics
+    - sucker punch productions
+    - frontwing
+    - subset games
+    - bluepoint games
+    - 343 industries
+    - giant sparrow
+    - virgin interactive entertainment
+    - playism
+    - terry cavanagh
+    - ubisoft paris
+    - dingaling
+    - mojang studios
+    - taito corporation
+    - moon studios
+    - iron gate ab
+    - eric lost
+    - siactro
+    - blue tongue entertainment
+    - midway
+    - factor 5
+    - rebellion developments
+    - dimps
+    - miniclip.com
+    - namco bandai games
+    - 0up games
+    - chucklefish games
+    - media molecule
+    - cold symmetry
+    - agetec
+    - behaviour interactive
+    - st. giga
+    - frictional games
+    - millennium kitchen
+    - kitfox games
+    - game freak
+    - square soft
+    - riot forge
+    - lucasarts
+    - gathering of developers
+    - simogo
+    - sony computer entertainment
+    - roblox corporation
+    - studio mdhr
+    - dennaton games
+    - curve digital
+    - bethesda game studios
+    - insomniac games
+    - black isle studios
+    - supercell
+    - david szymanski
+    - bandai namco entertainment europe
+    - infogrames europe
+    - sprite
+    - boneloaf
+    - half mermaid
+    - double fine productions
+    - team cherry
+    - mtv games
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - n
+    - no
+    - obviously not
+    - negative
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - i am feeling very good
+    - i am great
+    - i am amazing
+    - i am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - i am sad
+    - i don't feel very well
+    - i am disappointed
+    - super sad
+    - i'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am i talking to a bot?
+    - am i talking to a human?
+
+- intent: get_game_data
+  examples: |
+    - can you tell me about [the legend of zelda: breath of the wild](title)?
+    - i need details about the game [final fantasy vii remake](title).
+    - give me the information for [among us](title).
+    - tell me the genre and release date of [sekiro: shadows die twice](title).
+    - what's the release year and genre of [spider-man: miles morales](title)?
+    - can you give me the details of [cyberpunk 2077](title)?
+    - what can you tell me about [red dead redemption 2](title)?
+    - i want information on [halo infinite](title).
+    - show me the release date and genre of [god of war](title).
+    - what's the info on [the last of us part ii](title)?
+    - tell me the game details for [elden ring](title).
+    - could you provide me the release year and genre for [resident evil village](title)?
+    - do you have the data for [assassin's creed valhalla](title)?
+    - i need to know more about [hades](title).
+    - what's the release year for [ghost of tsushima](title)?
+    - give me details [dragon ball](title)
+    - wat iformation do you have about [dark souls](title)
+
+- intent: get_game_reviews
+  examples: |
+    - what are the reviews for [the legend of zelda: breath of the wild](title)?
+    - can you show me some reviews for [final fantasy vii remake](title)?
+    - i'd like to know the reviews for [among us](title).
+    - what do people think about [sekiro: shadows die twice](title)?
+    - tell me the ratings and reviews for [spider-man: miles morales](title).
+    - could you show me the reviews for [cyberpunk 2077](title)?
+    - what are the user reviews for [red dead redemption 2](title)?
+    - i'd like to see what people are saying about [halo infinite](title).
+    - do you have the reviews for [god of war](title)?
+    - tell me the reviews for [the last of us part ii](title).
+    - can you give me some reviews of [elden ring](title)?
+    - show me what the critics think about [resident evil village](title).
+    - what do the reviews say about [call of duty: modern warfare](title)?
+    - can you show me ratings and reviews for [assassin's creed valhalla](title)?
+    - find me some reviews of [hades](title).
+    - are there any reviews for [ghost of tsushima](title)?
+    - i'd like to know what the critics think about [doom eternal](title).
+    - what are the ratings for [fortnite](title)?
+    - can you tell me the reviews for [minecraft](title)?
+    - what are players saying about [league of legends](title)?
+    - give me [dragon ball](title) reviews
+    - wat reviews do you have about [dark souls](title)
+
+- intent: get_team_games
+  examples: |
+    - can you find games made by [nintendo](team)?
+    - show me all games developed by [ubisoft](team).
+    - i want to see games created by [square enix](team).
+    - which games did [bethesda](team) develop?
+    - find games from the developers at [rockstar games](team).
+    - do you have any games made by [valve](team)?
+    - list the games produced by [activision](team).
+    - can you show me some games made by [ea sports](team)?
+    - what games are from the development team [capcom](team)?
+    - i’m looking for games developed by [insomniac games](team).
+    - what titles did [cd projekt red](team) work on?
+    - find games from [blizzard entertainment](team).
+    - are there any games from [bandai namco](team)?
+    - give me games developed by [konami](team).
+    - can you list games created by [treyarch](team)?
+    - what games did [fromsoftware](team) create?
+
+- intent: get_genres
+  examples: |
+    - What genres of video games do you have?
+    - Can you tell me the available genres?
+    - I'd like to know the different genres of games.
+    - What are the genres of video games in your collection?
+    - List all the game genres you have.
+    - What types of genres can I choose from?
+    - Show me the video game genres available.
+    - Which genres of games are included in the database?
+    - What are the various genres of video games?
+    - Can you provide a list of genres for the video games?
+    - What genres can I explore in your game database?
+    - Tell me the different types of genres you have for games.
+    - What genres are available for video games?
+    - Can you give me an overview of the genres?
+    - What genres of video games do you support?
+    
+- intent: get_games_recommendation
+  examples: |
+    - Can you help me find some games I might like?
+    - I'm looking for some games to play.
+    - Recommend me some games.
+    - Can you suggest games for me?
+    - Help me find games I would enjoy.
+    - I want some game recommendations, please.
+    - Can you recommend some [rpg](genre) games?
+    - Suggest games in the [action](genre) genre.
+    - Help me find games I like, my favourite genres are [adventure](genre) and [real time strategy](genre).
+    - I like [puzzle](genre) and [platformer](genre) games. Can you recommend some?
+    - What games can you suggest for someone who enjoys [strategy](genre)?
+    - I'd like to discover new games similar to [action](genre) and [shooter](genre) types.
+    - Recommend games for me in the [rpg](genre) and [adventure](genre) genres.
+    - What games would you recommend for a fan of [horror](genre) games?
+    - Suggest some games from the [sports](genre) genre.
+    - Can you give me suggestions for [shooter](genre) games?
+    - I need game recommendations in the [RPG](genre) and [adventure](genre) categories.
+    - Show me games that are similar to my favorite genres [adventure](genre) and [puzzle](genre).
+    - What games do you have for someone who likes [racing](genre) games?
+
+- intent: stop
+  examples: |
+    - exit
+    - stop
+    - quit
+    - i want to quit 
+    - let's stop 
+    - exit the conversation
+    - i'm not interested anymore
+
+- intent: skip
+  examples: |
+    - skip
+    - I don't know
+    - can I skip this?
+    - I'd like to skip
+    - I don't have any
+    - I don't have none
+    - No preferences

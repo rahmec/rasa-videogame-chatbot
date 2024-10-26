@@ -1,0 +1,90 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+  #- story: sad path 1
+  #  steps:
+  #  - intent: greet
+  #  - action: utter_greet
+  #  - intent: mood_unhappy
+  #  - action: utter_cheer_up
+  #  - action: utter_did_that_help
+  #  - intent: affirm
+  #  - action: utter_happy
+  #
+  #- story: sad path 2
+  #  steps:
+  #  - intent: greet
+  #  - action: utter_greet
+  #  - intent: mood_unhappy
+  #  - action: utter_cheer_up
+  #  - action: utter_did_that_help
+  #  - intent: deny
+  #  - action: utter_goodbye
+
+- story: get_game_data_story
+  steps:
+  - intent: get_game_data
+  - action: game_data_form
+  - active_loop: game_data_form
+  - slot_was_set:
+    - requested_slot: title
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_get_game_data
+
+- story: get_genres_story
+  steps:
+  - intent: get_genres
+  - active_loop: null
+  - action: action_get_genres 
+
+- story: get_game_reviews_story
+  steps:
+  - intent: get_game_reviews
+  - action: game_reviews_form
+  - active_loop: game_reviews_form
+  - slot_was_set:
+    - requested_slot: title
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_get_game_reviews
+
+- story: get_team_games_story
+  steps:
+  - intent: get_team_games
+  - action: team_games_form
+  - active_loop: team_games_form
+  - slot_was_set:
+    - requested_slot: teams
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_get_team_games 
+
+- story: get_games_recommendation_story
+  steps:
+  - intent: get_games_recommendation
+  - action: games_recommendation_form
+  - active_loop: games_recommendation_form
+  - slot_was_set:
+    - requested_slot: genres_filter
+  - slot_was_set:
+    - requested_slot: genres
+  - slot_was_set:
+    - requested_slot: teams_filter
+  - slot_was_set:
+    - requested_slot: teams
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_get_games_recommendation
