@@ -30,6 +30,7 @@ df = pd.read_csv("./actions/new_games.csv")
 
 GENRES_DEFAULT_NEGATIVE = ["NO"]
 TEAMS_DEFAULT_NEGATIVE = ["NO"]
+GITHUB_LINK = "https://github.com/rahmec/rasa-videogame-chatbot/blob/main/assets/img/"
 
 def extract_unique_items_from_list_column(column_name):
     test_df = df.copy()
@@ -142,12 +143,12 @@ class GetGameData(Action):
             msg += "Here's a brief summary:\n"
             msg += " \n"
             msg += f"{row['Summary']}"
+            image_url = f"{GITHUB_LINK}{row['BigId']}.jpg?raw=true"
+            dispatcher.utter_message(text=f"{msg}",
+                                     image=image_url)
         else:
             msg += f'No game named {title} was found.\n'
-                
-
-        print("risultato query")
-        dispatcher.utter_message(text=f"{msg}")
+            dispatcher.utter_message(text=f"{msg}")
 
         return [SlotSet("title", None)]
 
@@ -260,7 +261,7 @@ class GetGamesRecommendaton(Action):
 
         if not result.empty:
             result = result.sort_values(by='Rating', ascending=False)
-            msg += f"Here's a list of games that follow your recommendations by:\n"
+            msg += f"Here's a list of games that you might like:\n"
             counter = 0
             for index, game in result.iterrows():
                 msg += '\n'
@@ -269,7 +270,6 @@ class GetGamesRecommendaton(Action):
                 if counter == 10:
                     break
             slots=tracker.slots
-            #msg += f"{slots}"
         else:
             msg += f'No games were found.\n'
             slots=tracker.slots
@@ -405,3 +405,14 @@ class AskForTeams(Action):
         else:
             SlotSet("teams", ["NO"])
         return []
+
+class ActionResetSlots(Action):
+    def name(self) -> Text:
+        return "action_reset_slots"
+    
+    def run(self,
+            #slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        return [AllSlotsReset()]

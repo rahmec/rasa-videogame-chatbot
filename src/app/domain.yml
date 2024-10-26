@@ -118,10 +118,6 @@ responses:
   utter_greet:
   - text: "Hi, I'm Viggo! You can ask me details about games, even reviews. If you give me some tips about your favourite genres I can even help finding a game that suits you! I can list for you the games of your favourite development team too."
 
-  #utter_cheer_up:
-  #- text: "Here is something to cheer you up:"
-  #  image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_did_that_help:
   - text: "Did that help you?"
 
@@ -135,7 +131,7 @@ responses:
   - text: "Sure thing!"
 
   utter_stop_form:
-    - text: "Ok, I'll stop searching! Ask me what you want :)"
+    - text: "Ok! Ask me what you want :)"
 
   utter_iamabot:
   - text: "I am a bot, i know many many things about videogames, you just have to ask."
@@ -157,6 +153,7 @@ actions:
   - action_ask_genres
   - action_ask_teams_filter
   - action_ask_teams
+  - action_reset_slots
 
 session_config:
   session_expiration_time: 60

@@ -29,9 +29,9 @@ rules:
   steps:
     - action: games_recommendation_form
     - active_loop: null
-    - action: action_get_games_recommendation # Custom action to handle form submission
+    - action: action_get_games_recommendation
 
-- rule: Interruption Games Recommendations Form
+- rule: Genres Interruption Games Recommendations Form
   condition:
   - active_loop: games_recommendation_form
   steps:
@@ -39,3 +39,18 @@ rules:
   - action: action_get_genres
   - action: games_recommendation_form
   - active_loop: games_recommendation_form
+
+- rule: Challenge Interruption Games Recommendations Form
+  condition:
+  - active_loop: games_recommendation_form
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: games_recommendation_form
+  - active_loop: games_recommendation_form
+
+- rule: Reset at stop 
+- intent: stop
+- active_loop: null
+- action: utter_stop_form
+- action: action_reset_slots
